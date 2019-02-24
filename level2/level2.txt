@@ -1,0 +1,28 @@
+
+#1 What is the DOM?
+    Document Object Model. It is a standard that lets us access HTML with e.g JavaScript
+
+#2 List three methods to manipulate the DOM.
+    Adding, updating or removing elements.
+
+#3 What is an asynchronous call?
+    A async call does not block further executing of code before it itself finishes. It executes alongside other code. "Multithread" comes to mind.
+
+#4 Briefly explain what the sources tab in Chromes Developers Tools does.
+    It shows all sources called/linked into the page we are inspecting.
+
+#5 What is a JavaScript promise?
+    A JS promise is a asynchronous call with 3 states; Pending, Fulfilled, Rejected.
+    Ideal when fetching large pieces of information, without slowing down loading of the rest of the document.
+    When a promise is Fulfilled, your code is executed. A Promise can also be Rejected, and your error-handling will execute.
+    The Fulfilled and Rejected act like placeholders for executing code until the promise is finished loading in the information, or the promise is rejected.
+
+#6 What is an API?
+    Application Programming Interface is a way for software to easily communicate with each other. The API-calls usually return a common data-format like JSON.
+
+#6 What is a JavaScript Event?
+    A JavaScript Event is a listener for a browser-action. A browser-action can be something you as a user do. Clicking a button, for example.
+    JS Events handle functions to be executed when a listener is triggered.
+
+#7 What is event bubbling?
+    A Event will trigger on the intended element, then on its parents, and then all the way up on the other ancestors. This is Event Bubbling. 
